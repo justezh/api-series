@@ -1,9 +1,10 @@
-GET http://127.0.0.1:8000/soma?a=5&b=6 HTTP/1.1
+### Variáveis de ambiente
+@base_url = http://127.0.0.1:8000
 
-###
+### Teste de conexão com a API
+GET {{base_url}}/ HTTP/1.1
+Accept: application/json
 
-GET http://127.0.0.1:8000/adicao/5/6 HTTP/1.1
-
-###
-
-GET http://127.0.0.1:8000/adicao/cinco/6 HTTP/1.1
+"titulo": "Rick and Morty"
+"descrição": "" 
+""
